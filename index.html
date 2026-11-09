@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+    <title>Clarity - project</title>
+</head>
+<body class="bg-[#060822]">
+    <!-- Start Nav -->
+    <nav class=" container mx-auto md:rounded-2xl p-5 bg-[#1b1933] md:flex md:items-center md:justify-between mb-10 my-2 relative z-50">
+            <div class="flex items-center justify-between">
+            <a href="./index.html" class="text-2xl text-white cursor-pointer">Clarity</a>
+            <span class="text-3xl text-white cursor-pointer md:hidden mx-2 block">
+                <ion-icon name="menu" onclick="menu(this)"></ion-icon>
+            </span>
+            </div>
+
+            <ul class=" md:flex md:items-center md:static absolute bg-[#1b1933]  w-full left-0 md:w-auto md:py-0 py-7 p-5 md:p-0 md:opacity-100 opacity-0 top-[70px] md:top-auto transition-all ease-in duration-500 ">
+                    <li class="mx-4 my-6 md:my-0">
+                        <a href="#" class="text-white  font-medium inline-block relative group">Home
+                        <span class="absolute -bottom-1 left-0 w-full h-[2px] bg-[#524dd3]  transition-all duration-500 "></span>
+                    </a>
+                </li>
+                <li class="mx-4 my-6 md:my-0 ">
+                    <a href="#" class="text-gray-300 text-sm  font-light inline-block relative group hover:text-white">About
+                        <span class="absolute -bottom-1 left-0 w-0 h-[2px] bg-[#524dd3] group-hover:w-full  transition-all duration-500 "></span>
+                    </a>
+                </li>
+                <li class="mx-4 my-6 md:my-0 ">
+                    <a href="#" class="text-gray-300 text-sm font-light inline-block relative group hover:text-white">Services
+                        <span class="absolute -bottom-1 left-0 w-0 h-[2px] bg-[#524dd3] group-hover:w-full  transition-all duration-500 "></span>
+                    </a>
+                </li>
+                <li class="mx-4 my-6 md:my-0 ">
+                    <a href="#" class="text-gray-300 text-sm font-light inline-block relative group hover:text-white">Portfolio
+                        <span class="absolute -bottom-1 left-0 w-0 h-[2px] bg-[#524dd3] group-hover:w-full  transition-all duration-500 "></span>
+                    </a>
+                </li>
+                <li class="mx-4 my-6 md:my-0 ">
+                    <a href="#" class="text-gray-300 text-sm font-light inline-block relative group hover:text-white">Team
+                        <span class="absolute -bottom-1 left-0 w-0 h-[2px] bg-[#524dd3] group-hover:w-full  transition-all duration-500 "></span>
+                    </a>
+                </li>
+                <li class="mx-4 my-6 md:my-0 ">
+                    <a href="#" class="text-gray-300 text-sm font-light inline-block relative group hover:text-white">Contact
+                        <span class="absolute -bottom-1 left-0 w-0 h-[2px] bg-[#524dd3] group-hover:w-full  transition-all duration-500 "></span>
+                    </a>
+                </li>
+            </ul> 
+    </nav>
+    <!-- End Nav -->
+ 
+    <!-- Start Hero  -->
+    <section class="hero container mx-auto hero bg-[#060822] pt-10 px-5 h-full">
+        <div class=" grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+            <div class="hero-content order-1 h-full">
+                <h1 class=" text-2xl sm:text-3xl lg:text-5xl font-bold text-white leading-tight mb-4">Transform Your Digital Presence</h1>
+                <p class="text-[#bbb8ab] text-xs sm:text-sm lg:text-base leading-relaxed mb-6">We create innovative digital solutions that drive growth and elevate your<br> brand. From web development to digital marketing, we're your partners in<br> digital transformation.</p>
+                    <div class="btn my-2 flex gap-5">
+                    <button class="px-6 py-2 text-white bg-[#524dd3] rounded-3xl transition duration-500 transform hover:-translate-y-1 cursor-pointer hover:bg-[#4642c9]">Get started</button>
+                    <button class="px-6 py-2 text-white bg-transparent rounded-3xl transition duration-500 border border-[#524dd3] hover:bg-[#4642c9] cursor-pointer">Our work</button>
+                    </div>
+
+                    <div class="flex gap-6 sm:gap-12 my-5  border-gray-800 py-6 w-full">
+                        <div>
+                            <h3 class="text-2xl sm:text-3xl font-bold text-white mb-2"><span class="text-[#524dd3]">150</span></h3>
+                            <p class="text-white sm:text-sm  text-gray-400">Projects Completed </p>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl sm:text-3xl font-bold text-white mb-2"><span class="text-[#524dd3]">95</span></h3>
+                            <p class=" text-white text-sm sm:text-sm txt-gray-400">Cleint Satifaction</p>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl sm:text-3xl font-bold text-white mb-2"><span class="text-[#524dd3]">42</span></h3>
+                            <p class="text-white text-sm sm:text-sm txt-gray-400">Team Members</p>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="img bg-[#07081f] order-2">
+                <img src="./images/misc-16.webp" alt="photo" class="w-full h-full">
+            </div>
+
+
+        </div>
+    </section>
+    <!-- End Hero -->
+
+    <!-- Start About -->
+    <section class="About container mx-auto  bg-[#060822] pt-30 px-5 h-full">
+        <div class=" grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+            <div class="about-content order-1 h-full">
+                <h3 class=" text-xl sm:text-3xl lg:text-xl font-bold uppercase text-[#524dd3] leading-tight mb-4">Discover Our Story</h3>
+                <h2 class="text-white sm:text-3xl  font-meduim md:text-3xl lg:text-4xl xl:text-5xl mb-6">Innovative Solutions for a Digital-First World</h2>
+                <p class="text-[#9aa4b6] text-sm ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                   <ul class="space-y-4 my-6">
+                    <li class="flex items-center gap-2 text-white">
+                        <i class="ri-checkbox-circle-fill  text-[#524dd3] text-2xl"></i>
+                        <p class="text-sm font-meduim  text-[#c3e7f7]">Excepteur sint occaecat cupidatat non proident.</p>
+                    </li>
+                    <li class="flex items-center gap-2 text-white">
+                        <i class="ri-checkbox-circle-fill  text-[#524dd3] text-2xl"></i>
+                        <p class="text-sm font-meduim  text-[#c3e7f7]">Nemo enim ipsam voluptatem quia voluptas sit.</p>
+                    </li>
+                    <li class="flex items-center gap-2 text-white">
+                        <i class="ri-checkbox-circle-fill  text-[#524dd3] text-2xl"></i>
+                        <p class="text-xs md:text-sm font-meduim  text-[#c3e7f7]">Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                    </li>
+                   </ul>
+                   <button class="px-7 py-3 text-white bg-[#524dd3] rounded-3xl transition duration-500 transform hover:-translate-y-1 cursor-pointer hover:bg-[#4642c9]">Discover More</button>
+
+            </div>
+
+            <div class="img bg-[#07081f] order-2">
+                <img src="./images/about-9.webp" alt="photo" class="w-full h-full rounded-xl border-4 border-[#4c4d65]">
+            </div>
+
+
+        </div>
+    </section>
+    <!-- End About -->
+    
+    <!-- Start About -->
+    <section class="services container mx-auto  bg-[#060822] pt-30 px-5 h-full">
+        <div class="service-title text-center mb-10">
+            <h3 class="text-white font-bold text-2xl md:text-3xl mb-2">Services</h3>
+            <p class="text-[#929693cd] text-md">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+            <div class="card bg-[#131428] p-8 rounded-2xl border border-white/10 flex flex-col items-center text-center transition-all duration-500 hover:border-indigo-500 hover:translate-y-3">
+               <div class="icon-card w-14 h-14 rounded-2xl bg-indigo-600/30 flex items-center justify-center text-indigo-400 text-3xl mb-6">
+                <i class="ri-palette-line "></i>
+               </div>
+               <h4 class="text-white text-xl font-bold mb-3">Brand Identity Design</h4>
+               <p class="text-gray-400 text-sm mb-6 leading-relaxed">Donec vel sapien augue integer urna vel turpis cursus porta aliquam ligula eget ultricies.</p>
+               <a href="#" class="text-indigo-400 text-sm font-meduim flex items-center justify-center gap-2 hover:gap-3 transition-all mt-auto">
+                Learn More 
+                <i class="ri-arrow-right-long-fill"></i>
+               </a>
+            </div>
+
+            <div class="card bg-[#131428] p-8 rounded-2xl border border-white/10 flex flex-col items-center text-center transition-all duration-500 hover:border-indigo-500 hover:translate-y-3">
+               <div class="icon-card w-14 h-14 rounded-2xl bg-indigo-600/30 flex items-center justify-center text-indigo-400 text-3xl mb-6">
+                <i class="ri-layout-2-line"></i>
+               </div>
+               <h4 class="text-white text-xl font-bold mb-3">UI/UX Design</h4>
+               <p class="text-gray-400 text-sm mb-6 leading-relaxed">Mauris blandit aliquet elit eget tincidunt nibh pulvinar rutrum tellus pellentesque eu.</p>
+               <a href="#" class="text-indigo-400 text-sm font-meduim flex items-center justify-center gap-2 hover:gap-3 transition-all mt-auto">
+                Learn More 
+                <i class="ri-arrow-right-long-fill"></i>
+               </a>
+            </div>
+
+            <div class="card bg-[#131428] p-8 rounded-2xl border border-white/10 flex flex-col items-center text-center transition-all duration-500 hover:border-indigo-500 hover:translate-y-3">
+               <div class="icon-card w-14 h-14 rounded-2xl bg-indigo-600/30 flex items-center justify-center text-indigo-400 text-3xl mb-6">
+                <i class="ri-code-s-slash-line"></i>
+               </div>
+               <h4 class="text-white text-xl font-bold mb-3">Web Development</h4>
+               <p class="text-gray-400 text-sm mb-6 leading-relaxed">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
+               <a href="#" class="text-indigo-400 text-sm font-meduim flex items-center justify-center gap-2 hover:gap-3 transition-all mt-auto">
+                Learn More 
+                <i class="ri-arrow-right-long-fill"></i>
+               </a>
+            </div>
+
+            <div class="card bg-[#131428] p-8 rounded-2xl border border-white/10 flex flex-col items-center text-center transition-all duration-500 hover:border-indigo-500 hover:translate-y-3">
+               <div class="icon-card w-14 h-14 rounded-2xl bg-indigo-600/30 flex items-center justify-center text-indigo-400 text-3xl mb-6">
+                <i class="ri-smartphone-line"></i>
+               </div>
+               <h4 class="text-white text-xl font-bold mb-3">Mobile App Design</h4>
+               <p class="text-gray-400 text-sm mb-6 leading-relaxed">Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida.</p>
+               <a href="#" class="text-indigo-400 text-sm font-meduim flex items-center justify-center gap-2 hover:gap-3 transition-all mt-auto">
+                Learn More 
+                <i class="ri-arrow-right-long-fill"></i>
+               </a>
+            </div>
+
+            <div class="card bg-[#131428] p-8 rounded-2xl border border-white/10 flex flex-col items-center text-center transition-all duration-500 hover:border-indigo-500 hover:translate-y-3">
+               <div class="icon-card w-14 h-14 rounded-2xl bg-indigo-600/30 flex items-center justify-center text-indigo-400 text-3xl mb-6">
+                <i class="ri-megaphone-line"></i>
+               </div>
+               <h4 class="text-white text-xl font-bold mb-3">Digital Marketing</h4>
+               <p class="text-gray-400 text-sm mb-6 leading-relaxed">Sed porttitor lectus nibh donec sollicitudin molestie malesuada proin eget tortor risus.</p>
+               <a href="#" class="text-indigo-400 text-sm font-meduim flex items-center justify-center gap-2 hover:gap-3 transition-all mt-auto">
+                Learn More 
+                <i class="ri-arrow-right-long-fill"></i>
+               </a>
+            </div>
+
+            <div class="card bg-[#131428] p-8 rounded-2xl border border-white/10 flex flex-col items-center text-center transition-all duration-500 hover:border-indigo-500 hover:translate-y-3">
+               <div class="icon-card w-14 h-14 rounded-2xl bg-indigo-600/30 flex items-center justify-center text-indigo-400 text-3xl mb-6">
+                <i class="ri-search-line"></i>
+               </div>
+               <h4 class="text-white text-xl font-bold mb-3">SEO Optimization</h4>
+               <p class="text-gray-400 text-sm mb-6 leading-relaxed">Curabitur arcu erat accumsan id imperdiet et porttitor at sem pellentesque habitant morbi.</p>
+               <a href="#" class="text-indigo-400 text-sm font-meduim flex items-center justify-center gap-2 hover:gap-3 transition-all mt-auto">
+                Learn More 
+                <i class="ri-arrow-right-long-fill"></i>
+               </a>
+            </div>
+        </div>
+
+    </section>
+    <!-- End About -->
+
+    <!-- Start Footer -->
+    <footer class="footer bg-[#040515] mt-10 py-5 px-5 h-full border-t border-b border-white/10">
+        <section class="container mx-auto px-5">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mb-12">
+                <div class="lg:col-span-1 flex flex-col items-start py-3">
+                    <h2 class="text-xl font-bold mb-4 text-white">Clarity</h2>
+                    <p class="text-gray-400 text-sm mb-2">A108 Adam Street</p>
+                    <p class="text-gray-400 text-sm mb-4">New York, NY 535022</p>
+                    <p class="text-gray-400 text-sm mb-2">Phone: +1 5589 55488 55</p>
+                    <p class="text-gray-400 text-sm mb-6">Email: info@example.com</p>
+
+                    <div class="flex items-center gap-2">
+                        <a href="#" class="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center text-gray-300 hover:bg-[#524dd3] hover:text-white transition-all duration-500">
+                            <i class="ri-twitter-x-line"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center text-gray-300 hover:bg-[#524dd3] hover:text-white transition-all duration-500">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center text-gray-300 hover:bg-[#524dd3] hover:text-white transition-all duration-500">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full border border-gray-600 flex items-center justify-center text-gray-300 hover:bg-[#524dd3] hover:text-white transition-all duration-500">
+                           <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="py-3">
+                    <h4 class="text-white font-semibold text-base mb-4">Useful Links</h4>
+                    <ul class="space-y-2.5">
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Home</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">About us</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Services</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Terms of service</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Privacy policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="py-3">
+                    <h4 class="text-white font-semibold text-base mb-4">Our Services</h4>
+                    <ul class="space-y-2.5">
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Web Design</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Web Development</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Product Management</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Marketing</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Graphic Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="py-3">
+                    <h4 class="text-white font-semibold text-base mb-4">Hic solutasetp</h4>
+                    <ul class="space-y-2.5">
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Molestiae accusamus iure</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Excepturi dignissimos</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Suscipit distinctio</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Dilecta</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Sit quas consectetur</a></li>
+                    </ul>
+                </div>
+
+                <div class="py-3">
+                    <h4 class="text-white font-semibold text-base mb-4">Nobis illum</h4>
+                    <ul class="space-y-2.5">
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Ipsam</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Laudantium dolorum</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Dinera</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Trodelas</a></li>
+                        <li><a href="#" class="text-gray-400 text-sm hover:text-[#524dd3] transition-colors duration-200">Flexo</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        
+
+        </section>
+        
+    </footer>
+    <!-- End Footer -->
+
+
+
+
+    <script>
+            function menu(e){
+                let list = document.querySelector('ul');
+                e.name === "menu"? (e.name="close", list.classList.add('top-[75px]'),list.classList.add('opacity-100'))
+                :(e.name = "menu", list.classList.remove('opacity-100'), list.classList.remove('top-[75px]'))
+            }
+     </script>
+</body>
+</html>
